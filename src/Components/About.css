@@ -1,0 +1,79 @@
+.image-main-div{
+  position: relative;
+  height: auto;
+}
+.image-main-div img{
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: -20%;
+    transform: translate(-50%);
+    width: 450px;
+    transition: all 1s;
+   
+}
+ 
+.Experience{
+    margin-top: 80px;
+}
+#about-me-1{
+    margin-top: 80px;
+}
+.about-heading{
+    text-decoration: none;
+    color: yellow;
+    margin: 3rem  1rem 1rem 1rem;
+    font-size: 29px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+.about-heading::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: orangered;
+    transition: all 0.3s;
+}
+.about-heading:hover::after{
+    width: 12%;
+    
+}
+.slider-container{
+    margin-top: 100px;
+}
+ 
+.slider-container .scroll-img{
+    width: 200px;
+    height: 200px;
+    transition: all .84s;
+    margin-left: 30px;
+    padding: 20px;
+}
+.slider-container .scroll-img:hover{
+    box-shadow: inset 0px 0px 20px wheat ;
+    transform: scale(1.05);
+}
+
+@media screen  and (max-width:768px){
+    .slider-container{
+        margin-top: 500px;
+      
+    }
+    .slider-container .scroll-img{
+        width: 200px;
+        height: 200px;
+        transition: all .84s;
+        margin-left: 90px;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+ 
+ 
+}

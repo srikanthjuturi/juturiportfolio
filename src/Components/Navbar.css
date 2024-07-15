@@ -1,0 +1,122 @@
+.navbarmenu{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 100vw;
+    justify-content: space-between;  
+    padding: 2rem; 
+    z-index: 3;
+    margin: 0px auto;
+    position:fixed;
+    top: 0;
+    background-color: rgba(30,30,30);
+    
+}
+.logo{
+    width: 3rem;
+    object-fit: cover;
+    height: 4rem;
+    mix-blend-mode:lighten;
+     cursor: pointer;
+}
+
+.navitems {
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+    font-size: 19px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.navitems::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: all 0.3s;
+}
+
+.navitems:hover::after {
+    width: 100%;
+}
+
+.navcontactbtn{
+    border: none;
+    background-color: none;
+}
+
+#tasks{
+    text-decoration: none;
+    color: white;
+    margin:  2rem;
+    font-size: 19px;
+    transition:  1s;
+    cursor: pointer;
+}
+.navlistitems{
+    display: flex;
+}
+.to-top-ani {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    cursor: pointer; 
+    background-image: linear-gradient(to top, red, yellow);
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    animation: trending 2s infinite alternate;
+    z-index: 999;
+     
+}
+
+@keyframes trending {
+    0% {
+        transform: scale(1.4);
+    
+    }
+    100% {
+        transform: scale(1.15);
+    }
+}
+/* mobile view */
+
+.mnavlistitems{
+    position: absolute;
+    top:5rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(30,30,30);
+    width: 80%;
+    height: fit-content;
+}
+.mnavitems{
+ text-decoration: none;
+ color: white;
+ text-align: center;
+ padding: 1rem;
+}
+#menu{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:769px) {
+    #menu{
+        cursor: pointer;
+        display: flex;
+    }
+    .navlistitems{
+        display: none;
+    }
+    .contactbtn{
+        display: none;
+    }
+}

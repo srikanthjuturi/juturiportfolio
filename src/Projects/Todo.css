@@ -1,0 +1,39 @@
+.todo-div{
+    margin-top: 70px;
+}
+.todo-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 250px;
+    max-height: fit-content;
+}
+.input-group{
+    width: 400px;
+}
+.list-group-div{
+    width: 700px;
+}
+.list-group .list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:769px) {
+    .input-group{
+        width: 100%;
+    }
+    .list-group-div{
+        width: 100%;
+    }
+    .todo-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 48vh;
+        max-height: fit-content;
+    }
+    
+}

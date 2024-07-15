@@ -1,0 +1,46 @@
+.calculator-div{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ height: 100vh;
+
+    
+}
+.input{
+    background-color:white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border: none;
+    padding: 18px 20px;
+    width: 339px;
+    text-align: end;
+    font-size: 20px;
+}
+.digit{
+    width: 85px;
+    font-size: 20px;
+    height: 60px;
+    border-top: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    border-left: none;
+    border-bottom: none;
+     
+}
+.operator{
+    width: 84px;
+    background: orange;
+    font-size: 25px;
+    color: white ;
+    border-top: 1px solid gainsboro;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    
+   
+}
+.operator:hover,.digit:hover{
+    background-color: rgb(193, 191, 191);
+}

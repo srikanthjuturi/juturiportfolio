@@ -1,0 +1,62 @@
+.task-main{
+    margin-top: 80px;
+}
+
+.task-image{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.child{
+    position: relative;
+    width:290px;
+}
+.task-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    background-color: rgba(0,0, 0, 0.40);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.child:hover .task-content{
+    opacity: 2;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.view-button-task{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.view-button-task:hover{
+    border: 2px groove white;
+    padding: 2px 5px;
+    border-radius: 8px;
+  
+}
+.parent{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,300px);
+    gap: 15px;
+   
+}
+
+@media screen and (max-width:769px) {
+    .parent{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;  
+        
+    }
+    .task-main{
+        margin-top:80px;
+    }
+}

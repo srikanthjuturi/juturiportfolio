@@ -1,0 +1,20 @@
+.form-update{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0px;
+    height: 115vh;
+    background-color: rgba(36, 39, 39, 0.785);
+  
+}
+.form-layout{
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    width: 400px;
+}

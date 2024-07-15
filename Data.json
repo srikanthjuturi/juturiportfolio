@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "name": "fdfsdf",
+      "price": "af",
+      "categorey": "watch",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "fdfsdf",
+      "price": "af",
+      "categorey": "watch"
+    }
+  ]
+}

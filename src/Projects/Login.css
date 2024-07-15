@@ -1,0 +1,25 @@
+.form-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('https://wallpaperaccess.com/full/2315001.jpg'),center,no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-inner-div{
+    border: 3px solid seashell;
+    padding: 80px 40px;
+     /* -webkit-backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
+    background-color:rgb(225, 225, 225, 0.5);
+}
+
+@media screen and (max-width:769px) {
+    .form-inner-div{
+        width: 90%;
+    
+    }
+    
+}

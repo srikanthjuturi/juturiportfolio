@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(50,50,50);
+    padding: 20px 20%;
+}
+.social-media-icons{
+    font-size: 30px;
+    color: white;
+     
+}
+ .social-media-icons .social-media-icon{
+    font-size: 40px;
+}
+.social-media-icons .social-media-icon:hover{
+  color: yellow;
+  border: 3px solid yellow ;
+  transition: border 0.2s;
+  border-radius: 50%;
+  padding: 5px;
+}
+ 
