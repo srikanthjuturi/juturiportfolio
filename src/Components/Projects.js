@@ -15,13 +15,13 @@ export default function Projects() {
         <div className='project-child'>
            <img src={foodmunch} alt="foodimage" className='project-img' />
            <div className='project-View'>
-            <a href="https://juturi7764.github.io/onlinefoodorder/">View</a>
+            <a href="https://srikanthjuturi.github.io/onlinefoodorder/">View</a>
            </div>
         </div>
         <div className='project-child'>
            <img src={torisum} alt="travel" className='project-img' />
            <div className='project-View'>
-            <a href=" https://juturi7764.github.io/travel/">View</a>
+            <a href=" https://srikanthjuturi.github.io/travel/">View</a>
            </div>
         </div>
         <div className='project-child'>
@@ -39,7 +39,7 @@ export default function Projects() {
         <div className='project-child'>
            <img src={simple} alt="retail" className='project-img' />
            <div className='project-View'>
-            <a href="https://juturi7764.github.io/simplestore">View</a>
+            <a href="https://srikanthjuturi.github.io/simplestore">View</a>
            </div>
         </div>
         <div className='project-child'>

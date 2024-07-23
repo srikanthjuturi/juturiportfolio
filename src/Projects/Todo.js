@@ -31,7 +31,7 @@ const submithalder=(e)=>{
         alert('Enter Something To Add')
     }
     else{
-        settodoid(++todoid)
+        settodoid(todoid++)
      let todo= [...todolist,{id:todoid, name:newtodo}]
      settodolist(todo)
      setnewtodo('')
