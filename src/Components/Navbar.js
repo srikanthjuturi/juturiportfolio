@@ -25,7 +25,7 @@ useEffect(() => {
 
   window.addEventListener('scroll', handleScroll);
  
-}, []);
+},[]);
 
 function scrollToTop() {
   window.scrollTo({

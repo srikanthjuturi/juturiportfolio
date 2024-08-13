@@ -2,7 +2,7 @@ import React from 'react'
 import foodmunch from '../images/foodmunch.png'
 import events from '../images/bookevents.png'
 import donate from '../images/help2children.png'
-import torisum from '../images/torisum.png'
+import trailer from '../images/trailer.png'
 import retail from '../images/retailimage.png'
 import soon from '../images/soon.png'
 import simple from '../images/simpleshop.png'
@@ -19,9 +19,9 @@ export default function Projects() {
            </div>
         </div>
         <div className='project-child'>
-           <img src={torisum} alt="travel" className='project-img' />
+           <img src={trailer} alt="travel" className='project-img' />
            <div className='project-View'>
-            <a href=" https://srikanthjuturi.github.io/travel/">View</a>
+            <a href="https://trailertime.netlify.app">View</a>
            </div>
         </div>
         <div className='project-child'>

@@ -7,6 +7,7 @@
 .skillbars{
     display: grid;
     grid-template-columns: repeat(3,24rem);
+    
 }
 
 .skillbar{
@@ -36,8 +37,25 @@
       display: grid;
       grid-template-columns: repeat(1, 22rem);
       width: 100%;
+    
+
     }
+
+    
+.skillbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 1.7rem 1.7rem; 
+  background-color: rgba(50,50,50);
+  border-radius:7px;
+  padding: 8px 4px;
+  cursor: pointer;
+  transition: all 0.8s;
+  
+}
   }
+
   @media screen and (min-width: 425px) and (max-width:768px) {
     .skillbars {
       display: grid;

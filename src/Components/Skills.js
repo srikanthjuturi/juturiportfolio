@@ -14,7 +14,6 @@ export default function Skills() {
      <p className='container text-center'>I am a skilled and passionate WebDevelper with exprience creating visually  
       appealing and user-friendly websites. <br />I am proficient in  HTML5, CSS3, BOOSTSRAP, JAVASCRIPT, REACT JS, MATERIAL UI And <br />little bit of MYSQL DataBase.</p>
          <div className="skillbars">
-
           <div className="skillbar">
             <img src={html} alt="html"  className='skillbaricons'/>
             <div className="skillcontent">

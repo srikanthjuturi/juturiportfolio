@@ -161,13 +161,13 @@ export default function Education() {
                 <td>
                 <h5 >Year of Passing <span><ArrowRightAltIcon className=''/></span>  </h5>
                 </td>
-                <td><h5> &nbsp; 2023 Auguest</h5></td>
+                <td><h5> &nbsp; 2024 March</h5></td>
             </tr>
             <tr>
                 <td>
-                <h5 > percentage <span><ArrowRightAltIcon className='w-25'/></span> </h5>
+                <h5 > CGPA <span><ArrowRightAltIcon className='w-25'/></span> </h5>
                 </td>
-                <td><h5> &nbsp; 8.0 </h5></td>
+                <td><h5> &nbsp; 8.3 </h5></td>
             </tr>
             </tbody>
          </table>
