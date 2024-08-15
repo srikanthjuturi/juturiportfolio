@@ -16,7 +16,6 @@ export default function Tasks() {
   const navigatetodo=()=>{
     navigate('/todo')
   }
-
   return (
     <>
    
